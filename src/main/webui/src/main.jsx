@@ -9,6 +9,7 @@ import Reports from './Reports'
 import Report from './Report'
 import Vulnerabilities from './Vulnerabilities'
 import Vulnerability from './Vulnerability'
+import Stats from './Stats'
 
 const router = createHashRouter([
   {
@@ -35,6 +36,10 @@ const router = createHashRouter([
       {
         path: "vulnerabilities/:id",
         element: <Vulnerability />,
+      },
+      {
+        path: "stats",
+        element: <Stats />,
       },
     ]
   }

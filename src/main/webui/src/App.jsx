@@ -86,6 +86,9 @@ export default function App() {
       <NavItem itemId={2} isActive={location.pathname.startsWith('/vulnerabilities')} to="#/vulnerabilities">
         Vulnerabilities
       </NavItem>
+      <NavItem itemId={3} isActive={location.pathname.startsWith('/stats')} to="#/stats">
+        Stats
+      </NavItem>
     </NavList>
   </Nav>;
 

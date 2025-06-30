@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@patternfly/patternfly": "^6.1.0",
+    "@patternfly/react-charts": "^6.1.0",
     "@patternfly/react-core": "^6.1.0",
     "@patternfly/react-icons": "^6.1.0",
     "@patternfly/react-styles": "^6.1.0",
